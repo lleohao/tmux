@@ -3,7 +3,7 @@ My tmux config
 
 ## Usage
 
-1. Install tpm 
+### Install tpm 
 
 > https://github.com/tmux-plugins/tpm
 
@@ -11,9 +11,13 @@ My tmux config
 git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
 ```
 
-2. Create `.tmux.conf` and copy `tmux.conf` to it
+### Download `tmux.conf`
 
-3. Install plugins
+```
+wget https://raw.githubusercontent.com/lleohao/tmux/main/tmux.conf -O .tmux.conf
+```
+
+### Install plugins
 
 Enter tmux session
 
